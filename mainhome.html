@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootrap icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<style>
+
+
+    .nav-link {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .nav-link:hover{
+        color: white;
+    }
+    .mainbg{
+        background-image: url(img/main-banner-bg2.jpg);
+    }
+    .maintext h4{
+        color: red;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Poppins;
+    }
+    .maintext h2{
+        color: white;
+        
+        font-weight: bold;
+    }
+    .mainbtn .button1{
+        width: 180px;
+        height: 55px;
+        background-color: rgb(245, 16, 16);
+        border: none;
+        font-size: 18px;
+        color: white;
+        font-weight: 700;
+    }
+    .mainbtn .button1:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .mainbtn .button2{
+        width: 180px;
+        height: 55px;
+        background-color: rgba(255, 255, 255, 0.973);
+        border: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 700;
+    }
+    .mainbtn .button2:hover{
+        background-color:red;
+        color: white;
+    }
+    .main{
+        height: 500px;
+    }
+    
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .trendingmatch{
+        background-image: url("img/main-banner-bg2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .trendingmatchtext h4{
+        color:red;
+        font-weight: 700;
+        text-align: center;
+    }
+    .trendingmatchtext h1{
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+    .box1{
+    
+        background-color:rgba(31, 7, 12, 0.587);
+    }
+    .boxbtn {
+        background-color: #000;
+       
+    }
+    .boxbtn button{
+        width: 200px;
+        height: 45px;
+        border: none;
+        color: white;
+        background-color: #000;
+        font-weight: 700;
+              border-radius: none;
+    }
+    .boxbtn .btn1{
+        background-color: red;
+    }
+    .boxbtn .btn3:hover{
+        background-color: red;
+    }
+    .boxbtn .btn2:hover{
+        background-color: red;
+    }
+    /* 2nd slider */
+    body {
+      position: relative;
+    
+      height: 100%;
+    }
+
+    body {
+         background-color:rgba(31, 7, 12, 0.587);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      
+      background-color:rgba(31, 7, 12, 0.587);
+      
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .slidertext h4{
+        color: red;
+        font-weight: 800;
+        text-align: center;
+    }
+    .slidertext h1{
+        color: white;
+        font-weight:800;
+        text-align: center;
+    }
+    .swiper-button-next{
+    color: red !important;
+    font-size: 50px !important;
+}
+.livestream{
+    background-image: url("img/awards-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.btnwithdisplay{
+    background-color:rgba(31, 7, 12, 0.758);
+}
+.livestream button{
+        width: 200px;
+        height: 45px;
+        border: none;
+        color: white;
+        background-color: #000;
+        font-weight: 700;
+            border-radius: none;
+    }
+    .livestream .twi{
+        background-color: red;
+    }
+    .livestream button:hover{
+        background-color: red;
+    }
+    /* product slider */
+    
+    
+.gamingproduct{
+    background-color: ;
+     /* background-color:rgb(31, 7, 12); */ 
+     background-image: url(img/main-banner-bg2.jpg);
+    background-attachment: fixed;
+}
+.gamingproduct .container{
+    background-color: rgba(255, 7, 7, 0.185);
+} 
+.gamingproducttext h1{
+font-weight: 800;
+color: red;
+}
+.gamingproducttext h2{
+    font-weight: 800;
+
+}
+.productimg{
+    
+   
+}
+.producttext1 button{
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+
+.product1 h4{
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+
+}
+.product1 p{
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+}
+.product2 h4{
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+
+}
+.product2 p{
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+}
+.product2 button{
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+
+.product3 h4{
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+.product3 p{
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+}
+.product3 button{
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+}
+.patners{
+    background-image: url(img/main-banner-bg2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.patnerstext h2{
+    color: white;
+    font-weight: 700;
+}
+.newsandupdate{
+    background-color: #000000e6;
+}
+.newstext h5{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+.newstext h2{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.newstextchild h5{
+    color:red;
+    font-weight: 700;
+}
+.newstextchild h4{
+    font-weight: 700;
+}
+.newsbtn button{
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    color: #eee;
+    font-weight: 700;
+    border: none;
+}
+.newsbtn button:hover{
+    background-color: white;
+    color: red;
+}
+.form{
+    background-color: rgb(25,2,3);
+}
+.form2{
+    background-image: url(img/awards-bg.jpg);
+}
+.form2 h5{
+    color: red;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+.form2 h3{
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.form2 form input{
+    width: 250px;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.571);
+    font-size: 20px;
+    border: none;
+}
+.form2 form button{
+    width: 60px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.stayconnected{
+    background-color: rgb(25,2,3);
+}
+.stayconnectedtext p{
+    color: red;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 700;
+}
+.stayconnectedtext h2{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-family: Poppins;
+}
+.icon1{
+    background-image: url(img/top-team-bg.png);
+}
+.icon1 i{
+    font-size: 35px;
+    color: white;
+    
+}
+.icon1 h4{
+    font-weight: 700;
+}
+.zeldaend{
+    background-color: rgb(25,2,3);
+
+}
+
+
+</style>
+
+</head>
+<body>
+    <!-- navigation bar -->
+    <section class="mainbg">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <img src="img/LOGO.png" alt="">
+            <button class="navbar-toggler text-danger bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-5 mt-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    HOME
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">MAIN HOME</a>
+                    <a class="dropdown-item" href="#">ESPORT HOME</a>
+                    <a class="dropdown-item" href="#">BOSTING HOME</a>
+                    <a class="dropdown-item" href="#">MAGAZINE HOME</a>
+                    <a class="dropdown-item" href="#">TOURNAMENT  HOME</a>
+                    <a class="dropdown-item" href="#">VIDEO HOME</a>
+                 
+                </li>
+               
+
+                <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                   
+                  </li>
+                  <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                   
+                  </li>
+                  <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                   
+                  </li>
+                  <li class="nav-item dropdown mt-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                   
+                  </li>
+              </ul>
+             
+            </div>
+          </nav>
+
+
+          <!-- main -->
+          
+    </section>
+    <!-- slider -->
+<section class="main" style="height: 620px;">
+    <swiper-container class="mySwiper" navigation="true" >
+        <swiper-slide  style="background-image: url(img/main-banner-bg2.jpg)">
+            <div >
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-6 main1">
+                            <div class="maintext mt-5">
+                                
+                                <img src="img/zelda text.png" alt=""width="60%" class="mt-3">
+                                <h2 class="mt-4">AVAILABLE NOW</h2>
+                            </div>
+                            <div class="mainbtn">
+                                <button class="button1 mt-2 ">PURCHASE NOW</button>
+                                <button  class="button2 mt-2 ms-5 ">FREE TRAIL</button>
+                            </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <img src="img/banner-img1.png" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </swiper-slide>
+            <!-- 2nd -->
+        <swiper-slide  style="background-image: url(img/main-banner-bg2.jpg)">
+            <div >
+                <div >
+                    <div class="row">
+                        <div class="col-6 main1">
+                            <div class="maintext mt-5">
+                                
+                                <img src="img/zelda text.png" alt=""width="60%" class="mt-3">
+                                <h2 class="mt-4">AVAILABLE NOW</h2>
+                                <div class="mainbtn">
+                                    <button class="button1 mt-2">PURCHASE NOW</button>
+                                    <button  class="button2 mt-2 ms-5">FREE TRAIL</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <img src="img/banner-img2.png" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </swiper-slide>
+
+        <swiper-slide style="background-image: url(img/main-banner-bg2.jpg)">
+            <div >
+                <div >
+                    <div class="row">
+                        <div class="col-6 main1">
+                            <div class="maintext mt-5">
+                            
+                                <img src="img/zelda text.png" alt=""width="100%" class="mt-3">
+                                <h2 class="mt-4">AVAILABLE NOW</h2>
+                                <div class="mainbtn">
+                                    <button class="button1 mt-2">PURCHASE NOW</button>
+                                    <button  class="button2 mt-2 ms-5">FREE TRAIL</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <img src="img/banner-img3.png" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </swiper-slide>
+        
+      </swiper-container>
+</section>
+
+
+<section  class="trendingmatch">
+    <div class="trendingmatchtext">
+        <h4 class="">MATCHES</h4>
+        <h1>TRENDING MATCHES</h1>
+    </div>
+
+    <!-- box1     -->
+    <div class="box1 container mt-3">
+    <div class="boxbtn row">
+
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+            <button class="btn1" onclick="dis1()">ALL MATCHES</button>
+         </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+            <button class="btn2" onclick="dis2()">UPCOMING MATCHES</button>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+            <button class="btn3"onclick="dis3()">LATEST RESULT</button>
+        </div> 
+     
+    </div>
+
+    <div class="row">
+
+
+        <div class="col-12" id="display1">
+            <div class="container">
+                <!-- 1st team -->
+                <div class="row">
+                    <!-- DISPLAY1 MATCH1 -->
+                    <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                       <div class="row">
+                        <div class="col-4">
+                            <img src="img/team1.png" alt="" width="100%">
+                        </div>
+                        <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                            <h2 class="text-light mt-5" style="font-weight: 800;">FIERENCE</h2>
+                        </div>
+                       </div>
+                        
+                    </div>
+<!-- DISPLAY1 MATCH2 -->
+                    <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                        <h1 class="text-light text-center mt-4" style="font-weight: 800; font-size: 45px;">9:14</h1>
+                        <h5 class="text-danger text-center" style="font-weight: 600;">20th MAY 2024 23:00</h5>
+                    </div>
+                    <!-- DISPLAY1 MATCH3 -->
+                    <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/team2.png" alt="" width="100%">
+                            </div>
+                            <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                <h2 class="text-light mt-5" style="font-weight: 800;">DEVIL</h2>
+                            </div>
+                           </div>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 2nd row -->
+                     <div class="container mt-2">
+                    <div class="row">
+                        <!-- DISPLAY1 MATCH1 -->
+                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                           <div class="row">
+                            <div class="col-4">
+                                <img src="img/team3.png" alt="" width="100%">
+                            </div>
+                            <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                <h2 class="text-light mt-5" style="font-weight: 800;">SKULLKING</h2>
+                            </div>
+                           </div>
+                            
+                        </div>
+    <!-- DISPLAY1 MATCH2 -->
+                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                            <h1 class="text-light text-center mt-4" style="font-weight: 800; font-size: 45px;">10:14</h1>
+                            <h5 class="text-danger text-center" style="font-weight: 600;">19th MAY 2024 23:00</h5>
+                        </div>
+                        <!-- DISPLAY1 MATCH3 -->
+                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <img src="img/team4.png" alt="" width="100%">
+                                </div>
+                                <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                    <h2 class="text-light mt-5" style="font-weight: 800;">GURDIAN</h2>
+                                </div>
+                               </div>
+                            </div>
+
+
+                               <!-- 3rd  team-->
+              <div class="container mt-5">
+                <div class="row">
+                        <!-- DISPLAY1 MATCH5 -->
+                <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                  <div class="row">
+                     <div class="col-4">
+                         <img src="img/team5.png" alt="" width="100%">
+                  </div>
+              <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                     <h2 class="text-light mt-5" style="font-weight: 800;">ROVER</h2>
+                 </div>
+            </div>
+                            
+         </div>
+    <!-- DISPLAY1 MATCH6-->
+                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                            <h1 class="text-light text-center mt-4" style="font-weight: 800; font-size: 45px;">10:14</h1>
+                            <h5 class="text-danger text-center" style="font-weight: 600;">18th MAY 2024 23:00</h5>
+                        </div>
+                        <!-- DISPLAY1 MATCH3 -->
+                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <img src="img/team6.png" alt="" width="100%">
+                                </div>
+                                <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                    <h2 class="text-light mt-5" style="font-weight: 800;">GLEOPPIES</h2>
+                                </div>
+                               </div>
+                            </div>
+
+
+                    
+
+                            <!-- 4TH TEAM -->
+                            <div class="container py-5 mt-1">
+                                <div class="row">
+                                        <!-- DISPLAY1 MATCH5 -->
+                                <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                                  <div class="row">
+                                     <div class="col-4">
+                                         <img src="img/team7.png" alt="" width="100%">
+                                  </div>
+                              <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                     <h2 class="text-light mt-5" style="font-weight: 800;">SOLIDER</h2>
+                                 </div>
+                            </div>
+                                            
+                         </div>
+                    <!-- DISPLAY1 MATCH6-->
+                                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                                            <h1 class="text-light text-center mt-4" style="font-weight: 800; font-size: 45px;">10:14</h1>
+                                            <h5 class="text-danger text-center" style="font-weight: 600;">17th MAY 2024 23:00</h5>
+                                        </div>
+                                        <!-- DISPLAY1 MATCH3 -->
+                                        <div class="col-xl-4 col-lg-4  col-md-4 col-12">
+                                            <div class="row">
+                                                <div class="col-4 ">
+                                                    <img src="img/team8.png" alt="" width="100%">
+                                                </div>
+                                                <div class="col-8 mt-1" style=" background-image: url(img/matches-bg1.png); background-position: center;">
+                                                    <h2 class="text-light mt-5" style="font-weight: 800;">GLEOPPIES</h2>
+                                                </div>
+                                               </div>
+                                            </div>
+                
+
+                            <!-- ending -->
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+                
+              
+                    
+        <!-- display2-->
+
+
+    <div class="col-12" id="display2" style="display: none;">
+        <div>
+           
+        
+
+        </div>
+    </div>
+
+        <!-- display3 -->
+        <div class="col-12"  id="display3" style="display: none;">  
+            
+        </div>
+        <!-- display3 -->
+    </div>
+
+
+</div>
+</section>
+
+<!-- RANKING TEAM SLIDER -->
+ <section style="background-color: black;">
+
+    <div class="slidertext">
+        <h4>GAMMER</h4>
+        <h1>TOP RANKING TEAM</h1>
+
+    </div>
+    <swiper-container class="mySwiper mt-5" pagination="true" pagination-dynamic-bullets="true" style="background-color: black;">
+        <swiper-slide>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/team1.png" alt="" >
+                    
+                    
+                   
+                </div>
+                <div class="col-4">
+                    <img src="img/team2.png" alt="" style="background-image: url(img/top-team-bg.png);">
+                    <h1></h1>
+                </div>
+                <div class="col-4">
+                    <img src="img/team3.png" alt="">
+                </div>
+                <!-- <div class="col-4">
+                    <img src="img/team4.png" alt="">
+                </div> -->
+            </div>
+
+        </swiper-slide>
+
+
+
+        <swiper-slide>
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/team4.png" alt="" width="15%">
+                   
+                </div>
+                <div class="col-4">
+                    <img src="img/team5.png" alt="" style="background-image: url(img/top-team-bg.png);">
+                    <h1></h1>
+                </div>
+                <div class="col-4">
+                    <img src="img/team6.png" alt="">
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/team7.png" alt="" width="15%">
+                   
+                </div>
+                <div class="col-4">
+                    <img src="img/team8.png" alt="" style="background-image: url(img/top-team-bg.png);">
+                    <h1></h1>
+                </div>
+                <div class="col-4">
+                    <img src="img/team1.png" alt="">
+                </div>
+            </div>
+        </swiper-slide>
+        
+      </swiper-container>
+ </section>
+
+
+  <!-- live strem, -->
+ <section class="livestream">
+    <div class="livetext">
+
+        <h4 class="text-light text-center " style="font-weight: 700;color: red;">WATCH</h4>
+        <h1 class="text-light text-center" style="font-weight: 700;">LIVE STREAM
+        </h1>
+    </div>
+
+    <div class="container btnwithdisplay">
+
+    <div class="livebtn  mt-4">
+        <button onclick="dis4() "class="twi">TWITCH</button>
+        <button onclick="dis5()">YOUTUBE</button>
+        <button onclick="dis6()">MIXER</button>
+        <button onclick="dis7()">VIMEO</button>
+    </div>
+    <div class="row">
+       <!-- stream diplay1 -->
+        <div class="col-12" id="display4">
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12" id="flip">
+                    <img src="img/live-stream-img1.jpg" alt="" height="400px" width="100%">
+                    <H4 class="text-light text-center"style="font-weight: 700;">FORTNITE</H4>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <img src="img/live-stream-img2.jpg" alt="" height="400px" width="100%">
+                    <H4 class="text-light text-center" style="font-weight: 700;">PUBG LIVE</H4>
+                </div>
+
+                
+            </div>
+
+            
+      
+      <div class="row my-2">
+        <div class="col-4">
+            <img src="img/live-stream-img3.jpg" alt="" width="100%">
+            <H4 class="text-light text-center"style="font-weight: 700;">FREE FIRE LIVE</H4>
+            h
+        </div>
+
+        <div class="col-4">
+            <img src="img/live-stream-img4.jpg" alt="" width="100%">
+            <H4 class="text-light text-center"style="font-weight: 700;">COMBAT5 LIVE</H4>
+        </div>
+
+        <div class="col-4">
+            <img src="img/live-stream-img5.jpg" alt="" width="100%">
+            <H4 class="text-light text-center"style="font-weight: 700;">CONTROL LIVE</H4>
+        </div>
+
+      </div>
+    
+<!-- ending -->
+        <!-- stream diplay2 -->
+
+        
+        <div class="col-12" id="display5" style="display: none;">
+
+            
+            
+
+
+            <!-- row end -->
+        </div>
+        <!-- ending -->
+
+               <!-- stream diplay3-->
+        <div class="col-12" id="display6"style="display: none;">
+            <h1>uncle</h1>
+        </div>
+        <!-- ending -->
+                <!-- stream diplay4 -->
+        <div class="col-12" id="display7"style="display: none;">
+            <h1>unclfsde</h1>
+        </div>
+        <!-- ending -->
+       
+        
+    </div>
+    </div>
+ </section>
+
+ <!-- gaming product swiper -->
+  <section class="gamingproduct">
+    <div class="gamingproducttext">
+        <h1 class="text-center">SHOP</h1>
+        <H2 class="text-light text-center" >
+            OUR GAMING PRODUCTS</H2>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12 product1 ">
+                
+                <div class="productimg1 d-flex justify-content-center ">
+                    <img src="img/products-img1.png" alt=""width="80%"  height="340px" >
+                </div>
+                <div class="producttext1 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>
+                                      
+                    <h4 class="ms-5 mt-2   text-center">GAMING HEADPHONE</h4>
+                    <P class="ms-5  text-center">$250</P>
+                    
+                </div>
+               
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12  product2">
+                <div class=" d-flex justify-content-center ">
+                    <img src="img/products-img2.png" alt="" width="60%"height="340px">
+                </div>
+                <div class="producttext2 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>      
+                       <h4 class="ms-5 mt-2  text-center">GAMING MOUSE</h4>
+                    <P class="ms-5  text-center">$250</P>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12 product3">
+               
+                <div class=" d-flex justify-content-center ">
+                    <img src="img/products-img3.png" alt="" width="60%"height="340px">
+                </div>
+                <div class="producttext2 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>
+
+                    <h4 class="ms-5 mt-2 text-center">GAMING MOUSE</h4>
+                    <P class="ms-5 text-center" >$250</P>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- 2ND  -->
+        <div class="row mt-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12 product1 ">
+                
+                <div class="productimg1 d-flex justify-content-center ">
+                    <img src="img/products-img4.png" alt=""width="80%"  height="340px" >
+                </div>
+                <div class="producttext1 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>
+                                      
+                    <h4 class="ms-5 mt-2   text-center">GAMING PAD</h4>
+                    <P class="ms-5  text-center">$250</P>
+                    
+                </div>
+               
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12  product2">
+                <div class=" d-flex justify-content-center ">
+                    <img src="img/products-img2.png" alt="" width="60%"height="340px">
+                </div>
+                <div class="producttext2 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>      
+                       <h4 class="ms-5 mt-2  text-center">GAMING CHAIR</h4>
+                    <P class="ms-5  text-center">$250</P>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-12 product3">
+               
+                <div class=" d-flex justify-content-center ">
+                    <img src="img/products-img1.png" alt="" width="60%"height="340px">
+                </div>
+                <div class="producttext2 mt-4 d-flex justify-content-center">
+                    <button class=" btn btn-primary ms-5 " >ADD TO CARD</button>
+                </div>
+                <div>
+
+                    <h4 class="ms-5 mt-2 text-center">GAMING HEADPHONE</h4>
+                    <P class="ms-5 text-center" >$250</P>
+                    
+                </div>
+            </div>
+    </div>
+
+  </section>
+
+  <!-- VALUABLE PATNERS -->
+   <section class="patners">
+
+    <div class="container">
+    <div class="row  ">
+        <div class="col-xl-4 col-lg-4 col-md-4  my-5">
+        <div class="d-flex justify-content-center">
+            <img src="img/partner-img1.png" alt="">
+        </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 my-5">
+            <div class="d-flex justify-content-center">
+                <img src="img/partner-img2.png" alt="">
+            </div>
+        </div>
+        <div class=" col-xl-4 col-lg-4 col-md-4 my-5">
+        <div class="d-flex justify-content-center">
+            <img src="img/partner-img3.png" alt="">
+        </div>
+        </div>
+     
+    </div>
+</div>
+
+   </section>
+
+   <!-- NEWS AND UPDATE -->
+    <section class="newsandupdate">
+        <div class="newstext">
+            <h5 class="text-center ">BLOG</h5>
+            <h2 class="text-center">NEWS AND UPDATES</h2>
+
+        </div>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                    <img src="img/blog-img1.png" alt="" width="100%">
+                    <div class="newstextchild">
+                        <h5 class="text-center">RELEASE NOTE</h5>
+                        <h4 class="text-light text-center">HOW  TO HIT THE  MARK WITH <br> MOBILE  GAMES</h4>
+                    </div>
+                    <div class="newsbtn d-flex justify-content-center mt-3 my-5">
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                    <img src="img/blog-img2.png" alt="" width="100%">
+                    <div class="newstextchild">
+                        <h5 class="text-center">RELEASE NOTE</h5>
+                        <h4 class="text-light text-center">HOW  TO HIT THE  MARK WITH <br> MOBILE  GAMES</h4>
+                    </div>
+                    <div class="newsbtn d-flex justify-content-center mt-3 my-5">
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                    <img src="img/blog-img3.png" alt=""width="100%">
+                    <div class="newstextchild">
+                        <h5 class="text-center">RELEASE NOTE</h5>
+                        <h4 class="text-light text-center">HOW  TO HIT THE  MARK WITH <br> MOBILE  GAMES</h4>
+                    </div>
+                    <div class="newsbtn d-flex justify-content-center mt-3 my-3">
+                        <button>LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+  <section class="form">
+    <div class="container">
+        <div class="form2 ">
+            <div class="formtext">
+                
+            <h5 class="py-4">Get Update</h5>
+            <h3 class="" >ZELDA NEWSLETTER</h3>
+
+            </div>
+    
+       
+         <form >
+            <div class="d-flex justify-content-center mt-2 ">
+            <input type="text" placeholder="ENTER YOUR EMAIL" class="my-5">
+            <button  class="my-5">Submit</button>
+        </div>
+        </form> 
+    </div>
+    </div>
+  </section>
+
+  <!-- connectd -->
+  <section class="stayconnected">
+    <div class="stayconnectedtext">
+        <p class="py-2">OFFICIAL
+            
+        </p>
+        <h2>STAY CONECTED</h2>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-4 col-6 mt-4">
+            <div class="icon1">
+                <i class="bi bi-facebook  mx-5">
+                 
+                </i>
+                <h4 class="text-light">FACEBOOK</h4>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4  col-6 mt-4">
+            <div class="icon1">
+                <i class="bi bi-instagram  mx-5">
+                 
+                </i>
+                <h4 class="text-light">INSTAGRAM</h4>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2  col-md-4   col-6 mt-4">
+            <div class="icon1">
+                <i class="bi bi-twitter  mx-5">
+                 
+                </i>
+                <h4 class="text-light">TWITTER</h4>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2  col-md-4   col-6 mt-4">
+            <div class="icon1">
+                <i class="bi bi-whatsapp  mx-5">
+                 
+                </i>
+                <h4 class="text-light">WHATSAPP</h4>
+            </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-2  col-md-4   col-6 mt-4">
+            <div class="icon1">
+                <i class="bi bi-youtube  mx-5">
+                 
+                </i>
+                <h4 class="text-light">YOUTUBE</h4>
+            </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-2  col-md-4  col-6 mt-4">
+            <div class="icon1 ">
+                <i class="bi bi-linkedin  ms-5">
+                 
+                </i>
+                <h4 class="text-light">LINKED-IN</h4>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+  </section>
+
+  <!-- zelda -->
+<section class="zeldaend">
+    <div class="container">
+        <div class="d-flex justify-content-center py-5">
+            <img src="img/LOGO.png" alt="">
+        </div>
+
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12  ">
+                <h6 class=" text-center" style="color: red; font-weight: 700;">LEGAL</h6>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12 ">
+            <h6 class=" text-center"style="color: red; font-weight: 700;">TERMS OF USE</h6>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                <h6 class=" text-center"style="color: red; font-weight: 700;">PRIVACY OF POLICY</h6>
+            </div>
+                       
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                <h6 class=" text-center"style="color: red; font-weight: 700;">SUPPORT CENTER</h6>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                <h6 class="text-center"style="color: red; font-weight: 700;">SUPPORT CENTER</h6>
+            </div>
+
+        </div>
+    </div>
+</section>
+  
+
+<!-- js -->
+
+<!-- team disp -->
+ <script>
+    function dis1(){
+        document.getElementById("display1").style.display="block"
+        document.getElementById("display2").style.display="none"
+        document.getElementById("display3").style.display="none"
+    }
+    function dis2(){
+        document.getElementById("display1").style.display="none"
+        document.getElementById("display2").style.display="block"
+        document.getElementById("display3").style.display="none"
+    }
+    function dis3(){
+        document.getElementById("display1").style.display="none"
+        document.getElementById("display2").style.display="none"
+        document.getElementById("display3").style.display="block"
+    }
+
+
+    function dis4(){
+        document.getElementById("display4").style.display="block"
+        document.getElementById("display5").style.display="none"
+        document.getElementById("display6").style.display="none"
+        document.getElementById("display7").style.display="none"
+
+    }
+    function dis5(){
+        document.getElementById("display4").style.display="none"
+        document.getElementById("display5").style.display="block"
+        document.getElementById("display6").style.display="none"
+        document.getElementById("display7").style.display="none"
+
+    }
+    function dis6(){
+        document.getElementById("display4").style.display="none"
+        document.getElementById("display5").style.display="none"
+        document.getElementById("display6").style.display="block"
+        document.getElementById("display7").style.display="none"
+
+    }
+    function dis7(){
+        document.getElementById("display4").style.display="none"
+        document.getElementById("display5").style.display="none"
+        document.getElementById("display6").style.display="none"
+        document.getElementById("display7").style.display="block"
+
+    }
+
+
+
+ </script>
+ 
+
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- slider js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- slider 2-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+
+
+
+
+</body>
+</html>
